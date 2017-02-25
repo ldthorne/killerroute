@@ -27,6 +27,7 @@ GEM
     fast_blank (1.0.0)
     fastimage (2.1.0)
     ffi (1.9.17)
+    ffi (1.9.17-x64-mingw32)
     haml (4.0.7)
       tilt
     hamster (3.0.0)
@@ -106,6 +107,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   middleman (~> 4.2)
@@ -115,4 +117,4 @@ DEPENDENCIES
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   1.12.5
+   1.14.5
