@@ -1,11 +1,11 @@
 const initMap = () => {
   const mapElement = document.getElementById('map');
-  const balticCoords = {
-    lat: 40.680726,
+  const coords = {
+    lat: 41.680726,
     lng: -73.981267
   };
   const mapOpts = {
-    center: balticCoords,
+    center: coords,
     scrollwheel: false,
     mapTypeControl: false,
     zoom: 15
