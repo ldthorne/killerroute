@@ -9,12 +9,12 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Middleman" %></title>
 
-    <%= stylesheet_link_tag "site" %>
+    <link rel="stylesheet" type="text/css" href="/KillerRouteBuild/stylesheets/site.css">
     <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
-    <%= javascript_include_tag "site" %>
+    <script type="text/javascript" src="/KillerRouteBuild/javascripts/site.js"></script>
   </head>
 
   <body class="<%= page_classes %>">
