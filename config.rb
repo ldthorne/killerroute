@@ -28,7 +28,10 @@ page '/*.txt', layout: false
 #     "Helping"
 #   end
 # end
-
+require 'sprockets/es6'
+activate :sprockets do |s|
+  s.supported_output_extensions << '.es6'
+end
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
