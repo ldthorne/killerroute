@@ -52,7 +52,7 @@ $(document).ready(function () {
         var form = new Form($(this));
         const destination = $(this).find("#destination")[0];
         const startingPoint = $(this).find("#starting-point")[0];
-        const options = { strictBounds: true, bounds: new google.maps.LatLngBounds(new google.maps.LatLng(40.496020, -74.256508), new google.maps.LatLng(40.854265, -73.668605)) };
+        const options = { types: ["address"], strictBounds: true, bounds: new google.maps.LatLngBounds(new google.maps.LatLng(40.496020, -74.256508), new google.maps.LatLng(40.854265, -73.668605)) };
         new google.maps.places.Autocomplete(destination, options);
         new google.maps.places.Autocomplete(startingPoint, options);
     });
