@@ -6,7 +6,6 @@ const initMap = () => {
   };
   const mapOpts = {
     center: coords,
-    scrollwheel: false,
     mapTypeControl: false,
     zoom: 15
   }
