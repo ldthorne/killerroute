@@ -6,11 +6,11 @@ const initMap = () => {
   };
   const mapOpts = {
     center: balticCoords,
-    scrollwheel: false,
     mapTypeControl: false,
     zoom: 15
   }
   const map = new google.maps.Map(mapElement, mapOpts);
+  window.map = map
   getLocation(map);
 }
 
